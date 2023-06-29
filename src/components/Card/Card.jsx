@@ -1,5 +1,5 @@
 import styles from "../Card/Card.module.css"
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Card({id, name, status, species, gender, origin, image, onClose}) {
    return (
